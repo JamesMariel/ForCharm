@@ -12,7 +12,7 @@ function animateText(){
 		span.innerHTML = item;
 		animatedSpan.push(span);
 		span.style.opacity = 0;
-		span.style.color = 'pink';
+		span.style.color = 'white';
 		this.$dom.animatedText.appendChild(span);
 	});
 	TweenMax.staggerTo(animatedSpan, .2,{
