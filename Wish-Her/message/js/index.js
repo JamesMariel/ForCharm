@@ -5,7 +5,7 @@ this.$dom.container = document.getElementById('container');
 this.$dom.container.appendChild(this.$dom.animatedText);
 animateText();
 function animateText(){
-	var array1fLetters = this.text.split("");
+	var array0fLetters = this.text.split("");
 	var animatedSpan = [];
 	arrayOfLetters.forEach(function(item){
 		var span = document.createElement('span');
